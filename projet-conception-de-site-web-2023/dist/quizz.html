@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy level</title>
+    <link rel="stylesheet" href="./CSS/niveau.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <!-- Haut de Page -->
+    <header>
+        <a href="./index.html">
+            <img src="./image/home.jpeg" alt="Logo Maison">
+        </a> 
+        <h1>Niveau Facile</h1>
+    </header>
+
+    <!-- corps de la Page -->
+    <div id="quiz-container">
+        <h1>Quizz de Traduction</h1>
+
+        <form id="quiz-form">
+          
+            <p id="question">Traduisez le mot :</p>
+            <input type="text" id="user-input" placeholder="Entrez votre réponse..." required>     
+            <button id="verify-button" onclick="verifierReponse()">Vérifier</button>
+            <p id="erreur"></p>
+       
+        </form>
+        <form>
+            <p id="fin"></p>
+            <p id="score"></p>
+        </form>
+        
+    </div>
+</body>
+</html>
